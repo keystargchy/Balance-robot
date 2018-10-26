@@ -3,7 +3,7 @@
 ..\obj\motor.o: ..\SYSTEM\sys\sys.h
 ..\obj\motor.o: ..\SYSTEM\sys\stm32f10x.h
 ..\obj\motor.o: ..\SYSTEM\sys\core_cm3.h
-..\obj\motor.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+..\obj\motor.o: G:\keil5\ARM\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\motor.o: ..\SYSTEM\sys\system_stm32f10x.h
 ..\obj\motor.o: ..\SYSTEM\delay\delay.h
 ..\obj\motor.o: ..\SYSTEM\sys\sys.h
@@ -11,7 +11,7 @@
 ..\obj\motor.o: ..\HARDWARE\KEY\key.h
 ..\obj\motor.o: ..\HARDWARE\OLED\oled.h
 ..\obj\motor.o: ..\SYSTEM\usart\usart.h
-..\obj\motor.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdio.h
+..\obj\motor.o: G:\keil5\ARM\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\motor.o: ..\HARDWARE\USARTX\usartx.h
 ..\obj\motor.o: ..\HARDWARE\ADC\adc.h
 ..\obj\motor.o: ..\HARDWARE\TIMER\timer.h
@@ -25,6 +25,6 @@
 ..\obj\motor.o: ..\BALANCE\DMP\inv_mpu_dmp_motion_driver.h
 ..\obj\motor.o: ..\BALANCE\DMP\dmpKey.h
 ..\obj\motor.o: ..\BALANCE\DMP\dmpmap.h
-..\obj\motor.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\string.h
-..\obj\motor.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdlib.h
-..\obj\motor.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\math.h
+..\obj\motor.o: G:\keil5\ARM\ARM\ARMCC\Bin\..\include\string.h
+..\obj\motor.o: G:\keil5\ARM\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\motor.o: G:\keil5\ARM\ARM\ARMCC\Bin\..\include\math.h

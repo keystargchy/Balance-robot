@@ -566,11 +566,12 @@ ARM Macro Assembler    Page 9
               00000400 
               00000200 
               00000000 
-Command Line: --debug --xref --cpu=Cortex-M3 --apcs=interwork --depend=..\obj\s
-tartup_stm32f10x_hd.d -o..\obj\startup_stm32f10x_hd.o -IC:\Keil_v5\ARM\RV31\INC
- -IC:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include -IC:\Keil_v5\ARM\PACK\Kei
-l\STM32F1xx_DFP\1.0.5\Device\Include --list=..\obj\startup_stm32f10x_hd.lst sta
-rtup_stm32f10x_hd.s
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
+ork --depend=..\obj\startup_stm32f10x_hd.d -o..\obj\startup_stm32f10x_hd.o -I"C
+:\Users\Chamico\Desktop\Balance Robot\Balance-robot\USER\RTE" -IG:\keil5\ARM\AR
+M\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include -IG:\keil5\ARM\ARM\CMSIS\Include
+ --predefine="__UVISION_VERSION SETA 514" --predefine="STM32F10X_HD SETA 1" --l
+ist=..\obj\startup_stm32f10x_hd.lst startup_stm32f10x_hd.s
 
 
 
@@ -1459,4 +1460,4 @@ Symbol: __use_two_region_memory
       None
 Comment: __use_two_region_memory unused
 2 symbols
-422 symbols in table
+424 symbols in table

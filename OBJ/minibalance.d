@@ -2,7 +2,7 @@
 ..\obj\minibalance.o: ..\SYSTEM\sys\sys.h
 ..\obj\minibalance.o: ..\SYSTEM\sys\stm32f10x.h
 ..\obj\minibalance.o: ..\SYSTEM\sys\core_cm3.h
-..\obj\minibalance.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+..\obj\minibalance.o: G:\keil5\ARM\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\minibalance.o: ..\SYSTEM\sys\system_stm32f10x.h
 ..\obj\minibalance.o: ..\SYSTEM\delay\delay.h
 ..\obj\minibalance.o: ..\SYSTEM\sys\sys.h
@@ -10,7 +10,7 @@
 ..\obj\minibalance.o: ..\HARDWARE\KEY\key.h
 ..\obj\minibalance.o: ..\HARDWARE\OLED\oled.h
 ..\obj\minibalance.o: ..\SYSTEM\usart\usart.h
-..\obj\minibalance.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdio.h
+..\obj\minibalance.o: G:\keil5\ARM\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\minibalance.o: ..\HARDWARE\USARTX\usartx.h
 ..\obj\minibalance.o: ..\HARDWARE\ADC\adc.h
 ..\obj\minibalance.o: ..\HARDWARE\TIMER\timer.h
@@ -24,6 +24,6 @@
 ..\obj\minibalance.o: ..\BALANCE\DMP\inv_mpu_dmp_motion_driver.h
 ..\obj\minibalance.o: ..\BALANCE\DMP\dmpKey.h
 ..\obj\minibalance.o: ..\BALANCE\DMP\dmpmap.h
-..\obj\minibalance.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\string.h
-..\obj\minibalance.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdlib.h
-..\obj\minibalance.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\math.h
+..\obj\minibalance.o: G:\keil5\ARM\ARM\ARMCC\Bin\..\include\string.h
+..\obj\minibalance.o: G:\keil5\ARM\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\minibalance.o: G:\keil5\ARM\ARM\ARMCC\Bin\..\include\math.h

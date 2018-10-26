@@ -3,7 +3,7 @@
 ..\obj\mpu6050.o: ..\SYSTEM\sys\sys.h
 ..\obj\mpu6050.o: ..\SYSTEM\sys\stm32f10x.h
 ..\obj\mpu6050.o: ..\SYSTEM\sys\core_cm3.h
-..\obj\mpu6050.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+..\obj\mpu6050.o: G:\keil5\ARM\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\mpu6050.o: ..\SYSTEM\sys\system_stm32f10x.h
 ..\obj\mpu6050.o: ..\SYSTEM\delay\delay.h
 ..\obj\mpu6050.o: ..\SYSTEM\sys\sys.h
@@ -11,7 +11,7 @@
 ..\obj\mpu6050.o: ..\HARDWARE\KEY\key.h
 ..\obj\mpu6050.o: ..\HARDWARE\OLED\oled.h
 ..\obj\mpu6050.o: ..\SYSTEM\usart\usart.h
-..\obj\mpu6050.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdio.h
+..\obj\mpu6050.o: G:\keil5\ARM\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\mpu6050.o: ..\HARDWARE\USARTX\usartx.h
 ..\obj\mpu6050.o: ..\HARDWARE\ADC\adc.h
 ..\obj\mpu6050.o: ..\HARDWARE\TIMER\timer.h
@@ -25,6 +25,6 @@
 ..\obj\mpu6050.o: ..\BALANCE\DMP\inv_mpu_dmp_motion_driver.h
 ..\obj\mpu6050.o: ..\BALANCE\DMP\dmpKey.h
 ..\obj\mpu6050.o: ..\BALANCE\DMP\dmpmap.h
-..\obj\mpu6050.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\string.h
-..\obj\mpu6050.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdlib.h
-..\obj\mpu6050.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\math.h
+..\obj\mpu6050.o: G:\keil5\ARM\ARM\ARMCC\Bin\..\include\string.h
+..\obj\mpu6050.o: G:\keil5\ARM\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\mpu6050.o: G:\keil5\ARM\ARM\ARMCC\Bin\..\include\math.h

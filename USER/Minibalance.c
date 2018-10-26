@@ -4,7 +4,7 @@
 我的淘宝小店：http://shop114407458.taobao.com/
 **************************************************************************/ 
 u8 Flag_Left,Flag_Right;   // 
-u8 Flag_Stop=1,Flag_Zero=0,Flag_Show,Flag_Qian,Flag_Hou,Flag_Left,Flag_Right,Flag_OK;       //停止标志位和 显示标志位 默认停止 显示打开
+u8 Flag_Stop=1,Flag_Zero=0,Flag_Show=1,Flag_Qian,Flag_Hou,Flag_Left,Flag_Right,Flag_OK;       //停止标志位和 显示标志位 默认停止 显示打开
 float Motor_X,Motor_Y,Motor_Z;
 long int Motor_A,Motor_B,Motor_C;        //电机PWM变量
 long int Target_A,Target_B,Target_C;     //电机目标值
@@ -23,7 +23,7 @@ int main(void)
 	LED_Init();                     //=====初始化与 LED 连接的硬件接口
 	KEY_Init();                     //=====按键初始化
 	OLED_Init();                    //=====OLED初始化
-	uart_init(72,128000);           //=====串口1初始化
+	//uart_init(72,128000);           //=====串口1初始化
 	uart2_init(36,9600);            //=====串口2初始化
   uart3_init(36,115200);          //=====串口3初始化 
 	Adc_Init();                     //=====adc初始化
@@ -38,10 +38,10 @@ int main(void)
 		{		
 			if(Flag_Show==0)
 			{
-		  	DataScope();	            //===上位机
-				delay_flag=1;	            //===50ms中断精准延时标志位
-				oled_show();              //===显示屏打开	  	
-				while(delay_flag);        //===50ms中断精准延时  主要是波形显示上位机需要严格的50ms传输周期 
+		  	//DataScope();	            //===上位机
+				//delay_flag=1;	            //===50ms中断精准延时标志位
+				//oled_show();              //===显示屏打开	  	
+				//while(delay_flag);        //===50ms中断精准延时  主要是波形显示上位机需要严格的50ms传输周期 
 			}
 			else
 			{
